@@ -35,8 +35,8 @@ All design have been deleted and would be provided later on in later features...
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/todo-app-with-react-and-vite-oQRrZkZJRr](https://www.frontendmentor.io/solutions/todo-app-with-react-and-vite-oQRrZkZJRr)
-- Live Site URL: [https://mentor-todo.netlify.app/](https://mentor-todo.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/space-tourism-multipage-website-kdAB8fYU-T](https://www.frontendmentor.io/solutions/space-tourism-multipage-website-kdAB8fYU-T)
+- Live Site URL: [https://space-mentor-tourism.netlify.app/](https://space-mentor-tourism.netlify.app/)
 
 ## My process
 
