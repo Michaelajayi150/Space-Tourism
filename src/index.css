@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.body {
+  color: #fff;
+  position: relative;
+  padding-bottom: 1.5rem;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font: 16px "Barlow Condensed", sans-serif;
+}
+
+h1,
+h2,
+span {
+  font-family: "Bellefair", serif;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+}
+
+/* Header */
+header,
+main,
+footer {
+  width: 100%;
+}
+
+.glasso {
+  width: 70%;
+  max-width: 968px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+/* Main */
+main {
+  margin: auto;
+}
+
+picture {
+  width: 100%;
+  height: 100%;
+}
+
+.page-background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content .cz-text-medium {
+  font-size: clamp(1rem, 2vw + 0.5rem, 1.7rem);
+  line-height: clamp(1.2rem, 10vw, 2rem);
+}
+
+/* Home */
+.home .content h1 {
+  font-size: clamp(3rem, 15vw + 0.5rem, 8rem);
+  line-height: clamp(5rem, 15vw + 0.5rem, 10rem);
+  margin-bottom: clamp(0.5rem, 1vw + 0.5rem, 1rem);
+}
+
+.home .content .normal-text {
+  font-size: 15px;
+}
+
+.home .content .btn-container {
+  width: calc(50vw + 5vw);
+  height: calc(50vw + 5vw);
+  max-width: 290px;
+  max-height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .content .btn-container:hover {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.home .content .btn-tag {
+  width: calc(50vw - 5vw);
+  height: calc(50vw - 5vw);
+  max-width: 230px;
+  max-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem, 5vw + 0.5rem, 2rem);
+  color: #000;
+}
+
+/* Desination */
+.destination .content h1 {
+  font-size: clamp(3rem, 15vw + 0.5rem, 5rem);
+  line-height: clamp(5rem, 15vw + 0.5rem, 6rem);
+  margin-top: clamp(1rem, 2vw + 0.5rem, 1.5rem);
+  margin-bottom: clamp(1rem, 2vw + 0.5rem, 1.5rem);
+}
+
+/* Crew */
+.crew .content h1 {
+  font-size: clamp(1rem, 5vw + 0.5rem, 3.2rem);
+  margin-top: clamp(0.5rem, 1vw + 0.5rem, 1rem);
+  margin-bottom: clamp(1rem, 2vw + 0.5rem, 1.5rem);
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
